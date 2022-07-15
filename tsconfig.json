@@ -1,0 +1,20 @@
+{
+  "compilerOptions":
+  {
+    "target": "ES5",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/assets/*"],
+    }
+  }
+}
