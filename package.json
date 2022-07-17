@@ -4,10 +4,8 @@
   "description": "node for aws-game-dev",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "prd": "webpack --mode production",
-    "debug": "webpack serve --mode development",
-    "start": "webpack serve --mode production"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
